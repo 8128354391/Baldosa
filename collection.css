@@ -690,14 +690,16 @@ body {
     }
 
     .all-content {
-        flex-direction: column;
-        align-items: flex-start;
+        display: flex;
+        gap: 10px;
+        flex-direction: row;
+        align-items:center;
         padding: 15px 0;
     }
 
     .image-container {
-        width: 100%;
-        justify-content: flex-start;
+        width: auto;
+        justify-content: start;
         margin: 10px 0;
     }
 
@@ -757,7 +759,7 @@ body {
     }
 
     .content-text h1 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .footer-social {
